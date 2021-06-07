@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon.ico" />
+    <script type="text/javascript" src="assets/js/run.js"></script>
+    <title>Flot Access</title>
+  </head>
+  <body>
+
+    <!-- Script content execute - run -->
+    <script type="text/javascript">
+      cooc();
+      navdata();
+
+
+      // Code navigator
+
+    </script>
+
+
+
+    <div class="container-fluid">
+      <header class="header row">
+        <div class="header__logo col-lg-3">
+          <img src="assets/images/lg.svg" alt="Flot Access" />
+        </div>
+        <nav class="header__menu col-lg-4 col-lg-offset-5">
+          <ul>
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="#qsom" alt="Quem somos"
+                >Quienes somos</a
+              >
+            </li>
+            <li class="header__menu__item">
+              <a onclick="products()" class="header__menu__item__link" href="src/products.html" alt="Extensões"
+                >Productos</a
+              >
+            </li>
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="#" alt="Contato"
+                >Contato</a
+              >
+            </li>
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="src/token.html" alt="Token">Token</a>
+
+            </li>
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="#clsw" onclick="COVID()" style="color:red">Aviso COVID-19</a>
+            </li>
+            <li class="header__menu__item">
+              <a class="header__menu__item__link" href="#clsw" onclick="infocovid()" style="color:red; background: white ;">Compromiso</a>
+
+            </li>
+          </ul>
+          </ul>
+        </nav>
+
+        <div class="header__call col-lg-6 col-lg-offset-3">
+          <div class="row">
+            <div class="header__call__title col-lg-6">
+              <h1>Para crecer en intenet necesitas asesoría, nosotros te ayudamos..</h1>
+              <div class="header__call_buttons">
+                <a class="button" href="#" alt="Saiba mais">Conocer más</a>
+                <a class="button" href="products.html" alt="Extensões">Oferta</a>
+                
+              </div>
+              
+             
+            </div>
+            <div class="header__call__image col-lg-6">
+              <img
+                src="assets/images/undraw_chore_list_iof3.png"
+                alt="Flot."
+              />
+            </div>
+          </div>
+        </div>
+        <p class="content__activity__subtitle subtitle" id="clsw" style="color: white; text-align: center; padding: 3%;"></p>
+               <div class="header__call__title col-lg-6" style="text-align: center;" >
+                  <h1 style="text-align: center; color: white;" id="contF"></h1>
+               </div>
+
+        <div class="about">
+          <h2 class="about__title" id="qsom">Quienes somos</h2>
+          <p class="about__text">
+            Somos una pequeño grupo de desarrolladores web y especialistas en publicidad digital. 
+          </p>
+          <p class="about__text">
+            Actualmente desarollamos y ejecutamos analisis de vulnerabilidades web y creación e impulso publicitario
+            en redes sociales, desarrollamos páginas web a un precio económico y damos soporte a distintos tipos de servidores web.
+            Actualmente tambíén ofrecemos cursos gratuitos sobre desarrollo web, creemos que todas las personas deberían aprender a programar, es por esto que los cursos que ofrecemos son completamente gratis. <a id="linkmore" href="">Más información</a>          </p>
+          <p class="about__text">
+            Para conocer más sobre nuestra empresa o apoyar el proyecto ponte en contacto con nosotros.
+          </p>
+          <a onclick="products()" href="products.html" class="button button--blue" alt="conoce más"
+            >Conoce más</a
+          >
+        </div>
+      </header>
+
+      <main class="content row">
+        <div class="content__activity col-lg-12">
+          <h2 class="content__activity__title title">Produtos</h2>
+
+          <p class="content__activity__subtitle subtitle">
+            Para ajustarnos a sus necesidades hemos creado una selección de algunos productos que ofrecemos, si desea solicitar ayuda por favor ponerse en contacto.
+          </p>
+
+          <div class="content__activity__list row">
+            <div class="content__activity__list__item col-lg-4">
+              <div class="content__activity__list__item__icon__text">
+                <div class="content__activity__list__item__icon">
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="./assets/images/icons/eye.svg"
+                  />
+
+                </div>
+                <div class="content__activity__list__item__title">
+                  Impulso social
+                </div>
+              </div>
+              <div class="content__activity__list__item__text">
+                <p class="text">
+                  Ofrecemos una asesoría general sobre las redes sociales y su impacto en la sociedad actual, te explicamos los algoritmos y lo que necesitas para hacer crecer tu marca o negocio en internet, las redes sociales son el medio de comunicación más utilizado actualmente, conviertete en un individuo capaz de crear relaciones, promover productos, generar ingresos o simplemente... aprende como es el procedimiento que utiliza el algoritmo para poder utilizarlo a tu favor, hay mucho más por descubrir, ¿Qué esperas?<br></p>
+                  <a href="products.html" onclick="products()" class="button button--blue" alt="Conocer más" class="link">Contactar</a><p class="text" style="color:red">Actualmente debido a la pandemia esta opcion debe ser por videoconferencia.</p>
+                
+              </div>
+            </div>
+
+            <div class="content__activity__list__item col-lg-4">
+              <div class="content__activity__list__item__icon__text">
+                <div class="content__activity__list__item__icon">
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="./assets/images/icons/brain.svg"
+                  />
+                </div>
+                <div class="content__activity__list__item__title">
+                  Desarrollo web
+                </div>
+              </div>
+              <div class="content__activity__list__item__text">
+                <p class="text">
+                  Hola! Este programa te explicará las bases del desarrollo web, desde como crear una página desde cero a aplicarle sistema de compras, registro y procesamiento de pagos, esto con el fin de impulsar el aprendizaje digital y el desarrollo web, ¿Por qué queremos enseñar a programar si eso es trabajo de nosotros los ingenieros?¿No nos da miedo que nos quedemos sin empleo por enseñar a la "nueva generación" a programar?... Pues la respuesta es simple, no, no nos da miedo.<br>
+                  El mundo esta lleno de programación, ceros y unos por todas partes, estas viendo esta información gracias al avance tecnológico que ha tenido el mundo, las personas deberian aprender a programar (por lo menos lo básico) ya que la tecnología avanza cada vez más y llegará un momento en el que saber programar ya no será un lujo, sino un requisito.
+                  <a onclick="products()" href="products.html" alt="inscripción" class="button button--blue" class="link">Inscríbete!</a>
+                </p>
+                <p class="text" style="color:red">Actualmente debido a la pandemia esta opcion debe ser por videoconferencia.</p>
+              </div>
+            </div>
+            <div class="content__activity__list__item col-lg-4">
+              <div class="content__activity__list__item__icon__text">
+                <div class="content__activity__list__item__icon">
+                  <img
+                    alt=""
+                    aria-hidden="true"
+                    src="./assets/images/icons/brain.svg"
+                  />
+                </div>
+                <div class="content__activity__list__item__title">
+                  Impulsa tu marca
+                </div>
+              </div>
+              <div class="content__activity__list__item__text">
+                <p class="text">
+                  Estas pensando en crear tu propia marca de diseño?<br>
+                      Haydistintos puntos que abordar cuando hablamos de marcas y desarrollo e intenet, es por esto que hemos desarrollado un curso intensivo lleno de hrramientas e informacion que puede serte util al momento de crear tu propia marca, te mostraremos como hacer un estudio de mercado para determinar las necesidades de los usuarios o comunidad, de esta manera obtienes los datos necesarios para el correcto desarrollo de la marca, obtendras conocimientos sobre como puedes empezar y expandir tu desarrollo, desde un punto base a crear publicidad efectiva y atractiva.<br>
+                  
+                  <a onclick="products()" href="products.html" alt="inscripción" class="button button--blue" class="link">Inscríbete!</a>
+                </p>
+                <p class="text" style="color:red">Actualmente debido a la pandemia esta opcion debe ser por videoconferencia.</p>
+              </div>
+            </div>
+
+           
+          <!-- end div list content__activity -->
+        </div>
+        
+        <!-- end div content__activity -->
+
+        <div class="centent__contact">
+          <h2 class="content__activity__title title">Contato</h2>
+          <form>
+            <div class="form-group form__content col-8">
+              <label for="name" class="form__label">Nombre completo</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control-input"
+              />
+            </div>
+            <div class="form-group form__content col-8">
+              <label for="email" class="form__label">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control-input"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="form-group form__content col-8">
+              <label for="telephone" class="form__label">Telefono</label>
+              <input
+                type="tel"
+                id="telephone"
+                name="telephone"
+                class="form-control-input"
+                placeholder="(xx) xxxxx-xxxx"
+              />
+            </div>
+            <div class="form-group form__content col-8">
+              <label for="message" class="form__label">Mensaje</label>
+              <textarea
+                class="form-control-input-area"
+                id="message"
+                name="message"
+                placeholder="Escribe tu mensaje aquí"
+                rows="3"
+              ></textarea>
+            </div>
+            <a href="#" class="button button--blue" alt="Enviar">Enviar</a>
+          </form>
+           
+        </div>
+      </main>
+    </div>
+
+  </body>
+</html>

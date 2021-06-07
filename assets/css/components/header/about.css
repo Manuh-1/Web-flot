@@ -1,0 +1,29 @@
+.about {
+  position: absolute;
+  left: 40px;
+  bottom: 0px;
+  width: calc(100% - 40px);
+  border-top-left-radius: 0.2em;
+  padding-left: 109px;
+  padding-top: 62px;
+  margin-top: 120px;
+
+  background: var(--text-light);
+}
+
+.about .text {
+  width: 60%;
+  margin-bottom: 1.2em;
+
+  color: var(--text-dark-medium);
+}
+.about .text:nth-child(4) {
+  margin-bottom: 1.5em;
+}
+
+@media screen and (max-width: 900px) {
+  .about {
+    padding-left: 34px;
+    padding-right: 54px;
+  }
+}

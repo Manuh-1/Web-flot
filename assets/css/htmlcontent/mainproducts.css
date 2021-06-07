@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+
+@import "../partials/_colors.css";
+@import "../partials/_reset.css";
+@import "../partials/_grid.min.css";
+
+/* General */
+@import "../general/main.css";
+
+/* Components */
+@import "../components/button/index.css";
+@import "../components/titles/index.css";
+@import "../components/titles/subtitle.css";
+@import "../components/link/index.css";
+
+@import "../components/header/index.css";
+@import "../components/activitys/index.css";
+@import "../components/input/label.css";
+@import "../components/input/input.css";
+@import "../components/input/text-area.css";
+
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+#linkmore {
+
+text-decoration: none;
+color blue;
+}
+
